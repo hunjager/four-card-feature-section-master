@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+    margin:0;
+    width:100%;
+    height:calc(100vh - 0.1px);
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+div.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+#one,#two,#three,#four{
+    border-radius: 0.5rem;
+    text-align: left;
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    border: solid white;
+}
+#one p,#two p,#three p,#four p{
+    width: 300px;
+    line-height: 25px; 
+}
+   
+#two,#three,#four{
+    margin-left:20px;
+}
+
+#one{
+    border-top-color: hsl(180, 62%, 55%);
+}
+#two{
+    border-top-color: hsl(0, 78%, 62%);
+    margin-top: 20px;
+}
+#three{
+    border-top-color: hsl(34, 97%, 64%);
+    margin-top: 20px;
+    
+}
+#four{
+    border-top-color:hsl(212, 86%, 64%);
+}
+img{
+    margin-left: 80%;
+    margin-top: 5%;
+}
+.first{
+    width: 500px;
+    text-align: center;
+}
+#titleone{
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+h3{
+    color: hsl(234, 12%, 34%);
+}
+#titletwo{
+    font-weight: 600;
+    margin-top: -20px;
+    color: hsl(234, 12%, 34%);
+}
+p{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+#para{
+    width:500px;
+    margin-top: -10px;
+}
